@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --mainColor:black;
+  }
+  
+  body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+  }
+  ul li {
+    width: 45px;
+    height: 45px;
+    list-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  ul li:first-child {
+    background-color: red;
+  }
+  ul li:nth-child(2) {
+    background-color: purple;
+  }
+  ul li:nth-child(3) {
+    background-color: black;
+  }
+  ul li:last-child {
+    background-color: coral;
+  }
+  
+  div {
+    background-color: var(--mainColor);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 1.5;
+  }
+  
